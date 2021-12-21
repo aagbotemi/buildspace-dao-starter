@@ -386,12 +386,12 @@ const App = () => {
     <div className="landing">
       <h1>👀 wallet connected, now what!</h1>
       <h2>Mint your free 🍪DAO Membership NFT</h2>
-      <button
+      {/* <button
         disabled={isClaiming}
         onClick={() => mintNft()}
       >
         {isClaiming ? "Minting..." : "Mint your nft (FREE)"}
-      </button>
+      </button> */}
       <button
         disabled={isClaiming}
         onClick={() => {
